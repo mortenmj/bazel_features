@@ -25,6 +25,9 @@ _external_deps = struct(
     module_extension_has_os_arch_dependent = ge("6.4.0"),
     # Whether repository_ctx#download has the block parameter, allowing parallel downloads (#19674)
     download_has_block_param = ge("7.1.0")
+    # Whether repository_ctx#download has the headers parameter, allowing arbitrary headers (#17829)
+    download_has_headers_param = ge("7.1.0")
+
 )
 
 _flags = struct(
